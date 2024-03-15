@@ -16,5 +16,6 @@ for row in range(3):
         button.text = StringVar()
         button.config(textvariable=button.text)
         buttons[row][col] = button  # Store the button in the list
-
+        #this is a test comment
+        print("hello")
 root.mainloop()
